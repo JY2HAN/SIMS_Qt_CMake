@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Search</class>
+ <widget class="QWidget" name="Search">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>640</width>
+    <height>480</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QPushButton" name="returnButton">
+   <property name="geometry">
+    <rect>
+     <x>350</x>
+     <y>410</y>
+     <width>93</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>主菜单</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="idLabel">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>60</y>
+     <width>72</width>
+     <height>15</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>学号</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="idLineEdit">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>60</y>
+     <width>113</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="nameLabel">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>120</y>
+     <width>72</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>姓名</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="showNameLabel">
+   <property name="geometry">
+    <rect>
+     <x>350</x>
+     <y>120</y>
+     <width>111</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>NULL</string>
+   </property>
+  </widget>
+	 <widget class="QLabel" name="gradeLabel">
+		 <property name="geometry">
+			 <rect>
+				 <x>150</x>
+				 <y>170</y>
+				 <width>72</width>
+				 <height>21</height>
+			 </rect>
+		 </property>
+		 <property name="text">
+			 <string>班级</string>
+		 </property>
+	 </widget>
+	 <widget class="QLabel" name="showGradeLabel">
+		 <property name="geometry">
+			 <rect>
+				 <x>350</x>
+				 <y>170</y>
+				 <width>111</width>
+				 <height>16</height>
+			 </rect>
+		 </property>
+		 <property name="text">
+			 <string>NULL</string>
+		 </property>
+	 </widget>
+  <widget class="QLabel" name="ALabel">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>220</y>
+     <width>72</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>科目A</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="showALabel">
+   <property name="geometry">
+    <rect>
+     <x>350</x>
+     <y>220</y>
+     <width>111</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>NULL</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="BLabel">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>270</y>
+     <width>72</width>
+     <height>15</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>科目B</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="showBLabel">
+   <property name="geometry">
+    <rect>
+     <x>350</x>
+     <y>270</y>
+     <width>111</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>NULL</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="CLabel">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>320</y>
+     <width>72</width>
+     <height>15</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>科目C</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="showCLabel">
+   <property name="geometry">
+    <rect>
+     <x>350</x>
+     <y>320</y>
+     <width>111</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>NULL</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="avgLabel">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>370</y>
+     <width>72</width>
+     <height>15</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>平均成绩</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="showAvgLabel">
+   <property name="geometry">
+    <rect>
+     <x>350</x>
+     <y>370</y>
+     <width>111</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>NULL</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="selectButton">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>410</y>
+     <width>93</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>查询</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>Search</sender>
+   <signal>objectNameChanged(QString)</signal>
+   <receiver>selectButton</receiver>
+   <slot>click()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>319</x>
+     <y>239</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>276</x>
+     <y>413</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>
